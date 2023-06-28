@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
     
 }
 body{
@@ -69,6 +69,10 @@ nav{
 }
 .dropdown-menu{
     background-color: #d5d0f5;
+}
+.dropdown-item:hover{
+    background-color: #d5d0f5;
+    margin-left: 0rem;
 }
 nav li a{
     color: #fff;
@@ -367,6 +371,9 @@ footer h4{
 #boton-login-2{
     background-color: #003492;
 }
+
+
+/*======================================= institucional =============================================== */
 .banner{
     overflow-x: hidden;
 }
@@ -383,7 +390,20 @@ footer h4{
 #faker{
     margin-bottom: 3rem;
 }
-/*======================================= responsive=============================================== */
+/* .accordion-button:focus {
+    background-color: #003492;
+
+} */
+/* .accordion-button:focus{
+    border-color: #003492;
+    border: #003492 solid 1px;
+    box-shadow: #003492;
+} */
+
+.accordion-button:not(.collapsed){
+    background-color:transparent;
+}
+/*======================================= responsive =============================================== */
 
 @media screen and (max-width: 767px){
     .barra-busqueda{
