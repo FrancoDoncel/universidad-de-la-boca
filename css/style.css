@@ -141,6 +141,9 @@ img{
     align-items: center;
 }
 /* ====================================================publicidad ==============================================*/
+#publicidad{
+    background-color: #dfb913;
+}
 .publicidad{
     background-color: #dfb913;
     height: 100px;
