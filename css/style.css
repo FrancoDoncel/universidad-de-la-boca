@@ -493,5 +493,13 @@ footer h4{
     .alinear-h3{
         text-align: center;
     }
-    
+    .alinear{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .ajustar{
+        margin-left: -2.7rem;
+    }
 }
