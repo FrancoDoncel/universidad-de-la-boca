@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     
 }
 body{
@@ -176,21 +177,25 @@ img{
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
-#agenda .owl-carousel .item {
+#agenda .owl-carousel .item{
     margin: 0 10px;
+
 }
 #agenda .owl-carousel .item h3 {
     color: #dfb913;
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 }
 #agenda .owl-carousel .item p {
     color: #fff;
     margin-top: 5px;
     font-size: 14px;
     line-height: 1.4;
+    text-align: center;
 }
 #agenda .owl-carousel a {
     text-decoration: none;
@@ -233,12 +238,14 @@ img{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 10px;
 }
 .propuesta:hover .glass{
-    background: rgba(54, 33, 247, 0.295);
+    background: rgba(0, 52, 146, 0.295);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.5px);
     filter: grayscale(10%);
+    border-radius: 10px;
 }
 .propuesta:hover h5{
     color: #dfb913;
